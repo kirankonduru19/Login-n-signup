@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0 auto;
+            box-sizing: border-box;
+            }
+        body{
+            overflow: hidden;
+            position: absolute;
+            background-image: url(data:image/jpeg;base64,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);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        #formpage{
+            align-items: center;
+            justify-content: center;
+            margin-top: 150px;
+            position: relative;
+            margin-left: 520px;
+            padding:10px;
+            border:2px solid black;
+            border-radius: 10px;
+            background: transparent;
+            backdrop-filter:blur(30px);
+            width:300px;
+            color:white;
+            height:400px;
+       }
+       #formpage:hover{
+        box-shadow: 2px 2px 0px 0px;
+       }
+       .in{
+        margin-left: 10px;
+        width:250px;
+        height:30px;
+        border:1px solid grey;
+        background: transparent;
+        margin-top: 30px;
+        color:white;
+        
+       }
+       .in:hover{
+        box-shadow: 0px 0px 1px 1.5px;
+       }
+       h1{
+         text-align: center;
+       }
+       .kkk{
+        margin-left: 10px;
+        margin-top: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+       }
+       #leo{
+        width:250px;
+        height:25px;
+        margin-left: 10px;
+        margin-top: 20px;
+        background:transparent;
+        background-color: rgb(12, 132, 236);
+        text-align: center;
+        border:1px solid black;
+       }
+       #leo:hover{
+        box-shadow: 0px 0px 1px 1.5px;
+
+       }
+       #place{
+        margin-left:140px;
+        padding:10px;
+       }
+       #signin{
+        text-align:center;
+        padding:10px;
+       }
+       
+    </style>
+</head>
+<body>
+    <form id="formpage">
+        <h1 id="login">Create an account </h1>
+        <input type="text" class="in"  name="fullname" placeholder="   Full Name" required><br>
+        <input type="text" class="in"  name="name" placeholder="   Username" required><br>
+        <input type="password" class="in" name="password" placeholder="   Password" required><br>
+        <input type="password" class="in" name="confirmpassword" placeholder=" Confirm Password" required><br>
+        <button id="leo">Sign up</button><br>
+        <h5 id="signin">Already existing member? <a href="login.html">Sign in</a></h5>
+    </form>   
+</body>
+</html>
